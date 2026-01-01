@@ -1,0 +1,44 @@
+{
+  "id": "root",
+  "title": "Product Vision",
+  "summary": "High-level vision of the product",
+  "description": "This is the central node representing the product vision. Expand to explore pillars and initiatives.",
+  "metadata": { "owner": "Product Team", "created": "2025-12-01" },
+  "children": [
+    {
+      "id": "pillars",
+      "title": "Strategic Pillars",
+      "summary": "Key pillars",
+      "description": "Strategic pillars that guide product development.",
+      "children": [
+        {
+          "id": "ux",
+          "title": "UX Excellence",
+          "summary": "Focus on delightful UX",
+          "description": "Invest in usability, accessibility, and delightful interactions to increase retention.",
+          "children": [
+            { "id": "research", "title": "Research", "summary": "User research", "description": "Regular user interviews and studies." },
+            { "id": "design-system", "title": "Design System", "summary": "Reusable components", "description": "Maintain a scalable design system." }
+          ]
+        },
+        {
+          "id": "scale",
+          "title": "Platform Scale",
+          "summary": "Scalability and performance",
+          "description": "Invest in infrastructure to support growth.",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "go-to-market",
+      "title": "Go To Market",
+      "summary": "Marketing and distribution",
+      "description": "Plans for market entry and growth.",
+      "children": [
+        { "id": "sales", "title": "Sales", "summary": "Sales strategy", "description": "Enterprise sales motion." },
+        { "id": "growth", "title": "Growth", "summary": "Growth experiments", "description": "A/B tests and acquisition channels." }
+      ]
+    }
+  ]
+}
